@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.studypoint"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <dist:module dist:instant="true" />
+14-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:8:5-40
+14-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:8:18-37
+15
+16    <application
+16-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:10:5-33:19
+17        android:allowBackup="true"
+17-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@drawable/appicon"
+20-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:12:9-41
+21        android:label="@string/app_name"
+21-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:13:9-41
+22        android:supportsRtl="true"
+22-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:14:9-35
+23        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+23-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:15:9-65
+24        <activity android:name="com.example.studypoint.developer" />
+24-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:16:9-56
+24-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:16:19-44
+25        <activity android:name="com.example.studypoint.compilers" />
+25-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:17:9-47
+25-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:17:19-44
+26        <activity android:name="com.example.studypoint.pythonInterpreter" />
+26-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:18:9-55
+26-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:18:19-52
+27        <activity android:name="com.example.studypoint.webeditor" />
+27-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:19:9-47
+27-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:19:19-44
+28        <activity android:name="com.example.studypoint.GeeksforGeeks" />
+28-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:20:9-51
+28-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:20:19-48
+29        <activity android:name="com.example.studypoint.w3school" />
+29-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:21:9-46
+29-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:21:19-43
+30        <activity android:name="com.example.studypoint.TutorialPoint" />
+30-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:22:9-51
+30-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:22:19-48
+31        <activity
+31-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:23:9-32:20
+32            android:name="com.example.studypoint.MainActivity"
+32-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:24:13-41
+33            android:theme="@style/SplasTheme" >
+33-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:25:13-46
+34            <intent-filter>
+34-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:26:13-31:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:27:17-69
+35-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:27:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:30:17-77
+37-->C:\Users\Lenovo\studypoint\app\src\main\AndroidManifest.xml:30:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>

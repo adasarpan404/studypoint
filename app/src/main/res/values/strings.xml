@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Study Point</string>
+    <string name="tutorial_point">Tutorial Point</string>
+    <string name="W3school">W3 School</string>
+    <string name="geeks_for_geeks">Geeks for geeks</string>
+    <string name="web_editor">Web Editor</string>
+    <string name="python_interpreter">Python Interpreter</string>
+    <string name="compilers">Various compilers</string>
+</resources>
